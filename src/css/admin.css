@@ -1,0 +1,80 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa; /* Warna background utama putih keabu-abuan */
+    color: #212529;
+}
+
+.extra-small {
+    font-size: 0.75rem;
+}
+
+.avatar-circle {
+    width: 35px;
+    height: 35px;
+    background-color: #e9ecef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6 !important;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Custom Table Styling */
+.table thead th {
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+.table tbody td {
+    padding: 15px 8px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+/* Status Badge Styles */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.status-progress {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #495057;
+}
+
+.status-success {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #495057;
+}
+
+/* Tombol Buat Booking agar mirip desain */
+.btn-dark {
+    border-radius: 8px;
+    background-color: #1a1a1a;
+}
+
+/* Menyesuaikan dropdown select */
+.form-select-sm {
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
