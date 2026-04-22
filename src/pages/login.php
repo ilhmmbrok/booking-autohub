@@ -10,7 +10,7 @@
 
 <body class="min-h-screen flex">
     <div class="hidden lg:block lg:w-1/2">
-        <img src="../assets/background.webp" alt="" class="h-full w-full object-cover">
+        <img src="../assets/baground.webp" alt="" class="h-full w-full object-cover">
     </div>
     <div class="w-full lg:w-1/2 flex flex-col justify-center px-6 sm:px-12 lg:px-20">
         <div class="max-w-md w-full mx-auto">
