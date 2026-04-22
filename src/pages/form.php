@@ -21,7 +21,7 @@
 
         <div class="px-6 py-5 flex justify-between items-start border-b border-gray-50">
             <div>
-                <h2 class="text-xl font-bold text-slate-900 tracking-tight">Book New Service</h2>
+                <h2 class="text-xl font-bold text-slate-900 tracking-tight">Form Booking Online</h2>
                 <p class="text-sm text-slate-500 mt-1">Enter vehicle details below to schedule a repair.</p>
             </div>
             <button class="text-slate-400 hover:text-slate-600 transition-colors">
