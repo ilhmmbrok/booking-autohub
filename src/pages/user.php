@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Polije Autohub</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
   <link rel="stylesheet" href="../css/output.css">
+  <title>Polije Autohub</title>
 
 </head>
+
 <body class="bg-gray-100 text-gray-800 font-sans">
 
   <!-- Navbar -->
   <div class="flex items-center justify-between px-6 py-4 bg-white shadow-xs">
     <h1 class="text-lg font-semibold">Polije Autohub</h1>
-    
+
     <div class="flex items-center gap-4">
       <span class="text-md">Name</span>
     </div>
@@ -28,14 +37,13 @@
         <p class="text-gray-500 text-sm">Selamat datang, Rizki</p>
       </div>
       <div>
-        <button class="flex justify-between items-center gap-2 bg-blue-500 rounded-lg px-4 py-2 text-white hover:bg-blue-600 transition text-sm">
-          <img src="../assets/plus.svg" alt="" width=20 >
-          Booking
-        </button>
+        <a href="./form.php">
+          <button class="flex justify-between items-center gap-2 bg-blue-500 rounded-lg px-4 py-2 text-white hover:bg-blue-600 transition text-sm">
+            <img src="../assets/plus.svg" alt="" width=20>
+            Booking
+          </button>
+        </a>
       </div>
-      <!-- <button class="bg-blue-600 text-white px-3 py-1 rounded-lg font-medium hover:bg-blue-700 transition text-sm">
-        + Buat Booking
-      </button> -->
     </div>
 
     <!-- Booking Aktif -->
@@ -51,7 +59,9 @@
 
           <div class="mt-4">
             <p class="text-gray-500 text-sm">Status Pengerjaan</p>
-            <span class="mt-1 py-1 text-sm bg-gray-100 rounded-full">Diproses</span>
+            <div class="mt-2">
+              <span class="py-1 px-2 text-sm bg-blue-500 text-white rounded-full">Diproses</span>
+            </div>
           </div>
         </div>
 
@@ -88,4 +98,5 @@
   </div>
 
 </body>
+
 </html>
